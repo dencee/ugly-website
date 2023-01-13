@@ -1,0 +1,87 @@
+html {
+    cursor: wait;
+}
+
+body {
+    background: url(https://img.favpng.com/25/25/8/orange-gift-basket-fruit-png-favpng-WvfGrBUDSNuceHa1sikX54EEB.jpg);
+    background-color: rgba(255,255,255,0.6);
+    background-blend-mode: lighten;
+    background-size: 15%;
+    font-family: monospace;
+}
+
+header h1 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: salmon;
+    font-size: 5rem;
+    text-shadow: 0 0 10px black, 0 0 10px black, 0 0 10px black, 0 0 10px black;
+}
+
+section {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+section p:nth-child(4) {
+    white-space: nowrap;
+}
+
+section img:first-child {
+    float: right;
+    width: 30%;
+    height: 30%;
+}
+
+section img:nth-child(3) {
+    float: left;
+    width: 30%;
+    height: 30%;
+}
+
+section img:nth-child(5) {
+    float: right;
+    width: 30%;
+    height: 30%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border: 10px dashed green;
+}
+
+tr{
+    border: 5px dotted hotpink;
+}
+
+#table-header td {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#table-row-1 td img {
+    width: 150px;
+    height: 150px;
+
+}
+
+#construction {
+    text-align: center;
+}
+
+#page-counter {
+    padding: 0;
+    margin: auto;
+    width: 5%;
+    height: 5%;
+    border: 15px solid hotpink;
+}
+
+#page-counter p {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
